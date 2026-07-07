@@ -1,0 +1,9 @@
+name,tagline,description,url,category,pricing,tags
+Zed,High-performance collaborative editor,"A fast, Rust-based code editor with built-in AI and real-time collaboration.",https://zed.dev,AI Coding,Freemium,editor|rust|collaboration
+Continue,Open-source AI code assistant,"An open-source autopilot for VS Code and JetBrains you can point at any model.",https://continue.dev,AI Coding,Free,editor|open-source|extension
+Perplexity,Answer engine for research,"A conversational search tool that answers questions with cited sources.",https://perplexity.ai,LLM APIs,Freemium,search|research|citations
+Chroma,Open-source embedding database,"A developer-friendly vector store for building retrieval apps.",https://trychroma.com,Vector & Data,Free,vector-db|open-source|rag
+Neon,Serverless Postgres,"A serverless Postgres with branching and scale-to-zero.",https://neon.tech,Vector & Data,Freemium,postgres|serverless|branching
+Modal,Serverless compute for AI,"Run Python functions and GPUs in the cloud, no servers to manage.",https://modal.com,Deploy & Hosting,Freemium,compute|gpu|serverless
+Resend,Email API for developers,"A clean API and dashboard for sending transactional email.",https://resend.com,Dev Tools,Freemium,email|api|transactional
+Turso,Edge SQLite database,"A distributed SQLite built on libSQL that runs close to your users.",https://turso.tech,Vector & Data,Freemium,sqlite|edge|database
