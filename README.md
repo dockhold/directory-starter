@@ -54,7 +54,8 @@ Full walkthrough: [recipes/import-your-data.md](recipes/import-your-data.md).
 - On a first deploy the database may still be starting, so the app **retries the
   connection** a few times instead of crash-looping.
 
-No build step, so Dockhold runs it directly. No Dockerfile needed.
+Dockhold builds the included [`Dockerfile`](Dockerfile). There's nothing to
+change in it, and it deploys on any plan.
 
 ## Grow into connected services
 
