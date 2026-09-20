@@ -8,7 +8,7 @@ Backed by [Dockhold](https://dockhold.eu)'s managed database: enable the databas
 add-on and Dockhold injects `DATABASE_URL`. The app creates its schema and seeds
 itself on first boot.
 
-[![Deploy to Dockhold](https://img.shields.io/badge/Deploy%20to-Dockhold-2563eb?style=for-the-badge)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/directory-starter)
+[![Deploy on Dockhold](https://dockhold.eu/button.svg)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/directory-starter&name=directory-starter&ref=button)
 
 ## Deploy it
 
@@ -18,6 +18,15 @@ itself on first boot.
 3. It goes live at `https://<your-app>.dockhold.app`, already populated. Data
    persists across restarts and deploys, because it lives in the database, not
    the container filesystem.
+
+## Deploy with your AI tool
+
+Install the Dockhold plugin or MCP server in your AI coding tool
+([setup guide](https://dockhold.eu/docs/recipes/deploy-from-your-ai-tool)), then
+say "put this online" in a folder with this template. The tool signs you in
+through the browser once and reports the URL when the app is live.
+
+Or from a terminal: `npx dockhold login`, then `npx dockhold deploy --db` (the `--db` adds the managed database this template needs).
 
 ## Make it yours
 
