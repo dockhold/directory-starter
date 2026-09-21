@@ -8,7 +8,7 @@ A browsable, searchable directory site (Node) that seeds itself with starter dat
 2. `npx dockhold deploy --name directory-starter --db` from this folder. `--db` adds the managed database this app needs; Dockhold injects `DATABASE_URL`.
 3. Report the URL the command prints. Never claim a URL is live before the command prints it. Run the same command again to ship a new version; it updates the same app because the CLI recorded the app id in `.dockhold/app.json` (no secret in it, and the CLI adds it to `.gitignore`).
 
-This template has no Dockerfile. Dockhold detects the stack and builds it; that is included from the first compute unit. On a free account the deploy stops and asks for a Dockerfile: add one at the root (examples: https://dockhold.eu/docs/concepts/dockerfiles) and deploy again.
+The build uses the Dockerfile at the root on every account. Without it, Dockhold recognises a Node project with a `start` script and a `package-lock.json` and builds it on every account.
 
 ## Push-to-deploy (from a GitHub repo)
 
